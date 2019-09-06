@@ -1,0 +1,8 @@
+files:
+  - letter.tex
+params:
+  full_name: Full Name
+  address:
+    street: Street
+    city: City
+    zipcode: Zipcode
