@@ -1,0 +1,17 @@
+files:
+  - beamercolorthemetum.sty
+  - beamerouterthemetum.sty
+  - presentation.tex
+params:
+  - name: title
+    prompt: Title
+    type: str
+  - name: subtitle
+    prompt: Subtitle
+    type: str
+  - name: author
+    prompt: Author
+    type: str
+  - name: institute
+    prompt: Institute
+    type: str

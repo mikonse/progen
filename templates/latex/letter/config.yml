@@ -1,8 +1,16 @@
 files:
   - letter.tex
 params:
-  full_name: Full Name
-  address:
-    street: Street
-    city: City
-    zipcode: Zipcode
+  - name: full_name
+    prompt: Full Name
+    type: str
+  - name: address
+    prompt: Address
+    type: group
+    subfields:
+      - name: street
+        prompt: Street
+      - name: city
+        prompt: City
+      - name: zipcode
+        prompt: Zipcode
